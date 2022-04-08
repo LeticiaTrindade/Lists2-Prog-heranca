@@ -58,7 +58,10 @@ public class Testar {
         
         System.out.println(c4);
         
-        
+        System.out.println("\nTransferindo 10 da conta 1234-1 para a conta 1234-2");
+        c1.transferir(10, c2);
+        System.out.println(c1);
+        System.out.println(c2);
         
         
     }

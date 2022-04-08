@@ -35,6 +35,11 @@ public class Conta {
     
     }
     
+    public void transferir(double valor, Conta objeto){
+        this.debitar(valor);
+        objeto.creditar(valor);
+       
+    }
     public void creditar(double valor){
         
         this.saldo += valor;
